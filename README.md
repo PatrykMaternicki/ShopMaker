@@ -1,13 +1,14 @@
 # ShopMaker
 The webshop with use turingAPI and Stripe API.
-#Use:
+
+# Use:
 - Vuex
 - Vue-router
 - Vuetify
 - TuringAPI
 - StripeAPI
 
-#Features
+# Features
 
 - Search product
 - Search for category
