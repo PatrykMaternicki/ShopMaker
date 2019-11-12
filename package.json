@@ -1,0 +1,53 @@
+{
+  "name": "component_turing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --config setup/webpack.config.dev.js",
+    "prod": "webpack --config setup/webpack.config.prod.js",
+    "eslint": "eslint src/** --ext .js,.vue",
+    "eslint-fix": "eslint src/** --ext .js,.vue --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatrykMaternicki/component_turing.git"
+  },
+  "author": "patryk maternicki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PatrykMaternicki/component_turing/issues"
+  },
+  "dependencies": {
+    "chunk": "0.0.2",
+    "eslint-plugin-vue": "^5.2.3",
+    "material-design-icons-iconfont": "^5.0.1",
+    "vue": "^2.6.10",
+    "vue-eslint-parser": "^6.0.4",
+    "vuetify": "^1.5.16",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "@mdi/font": "^4.0.96",
+    "axios": "^0.18.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "css-loader": "^3.0.0",
+    "eslint": "^6.0.1",
+    "moment": "^2.24.0",
+    "vue-loader": "^15.4.2",
+    "vue-router": "^3.0.7",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.5.21",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "homepage": "https://github.com/PatrykMaternicki/component_turing#readme"
+}

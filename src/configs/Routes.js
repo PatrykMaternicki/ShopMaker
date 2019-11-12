@@ -1,0 +1,21 @@
+export const Routes = {
+  base: 'https://backendapi.turing.com/',
+  products: 'https://backendapi.turing.com/products',
+  search: 'https://backendapi.turing.com/products/search',
+  categories: 'https://backendapi.turing.com/categories',
+  departaments: 'https://backendapi.turing.com/departments',
+  products_in_category: 'https://backendapi.turing.com/products/inCategory',
+  products_in_departament: 'https://backendapi.turing.com/products/inDepartment',
+  register: 'https://backendapi.turing.com/customers',
+  login: 'https://backendapi.turing.com/customers/login',
+  update_user: 'https://backendapi.turing.com/customer',
+  update_address: 'https://backendapi.turing.com/customers/address',
+  update_credit_data: 'https://backendapi.turing.com/customers/creditCard',
+  generate_shipping_cart: 'https://backendapi.turing.com/shoppingcart/generateUniqueId',
+  add_product_to_cart: 'https://backendapi.turing.com/shoppingcart/add',
+  update_product: 'https://backendapi.turing.com/shoppingcart/update/',
+  remove_product_in_cart: 'https://backendapi.turing.com/shoppingcart/removeProduct/',
+  clean_cart: 'https://backendapi.turing.com/shoppingcart/empty/',
+  create_order: 'https://backendapi.turing.com/orders',
+  charge_stripe: 'https://backendapi.turing.com/stripe/charge'
+};
