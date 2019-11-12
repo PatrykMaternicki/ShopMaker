@@ -18,3 +18,6 @@ The webshop with use turingAPI and Stripe API.
 - Cache(LocalStorage)
 - Make order
 - Payment System
+
+Live:
+https://patrykmaternicki.github.io/ShopMaker/#/
