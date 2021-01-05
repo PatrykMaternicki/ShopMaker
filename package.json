@@ -32,7 +32,7 @@
     "@babel/core": "^7.5.4",
     "@babel/preset-env": "^7.5.4",
     "@mdi/font": "^4.0.96",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "babel-core": "^7.0.0-bridge.0",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.7.0",
